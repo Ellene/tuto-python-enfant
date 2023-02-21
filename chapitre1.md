@@ -34,12 +34,44 @@ age = 2023 - 2013
 * Les opérateurs : il est possible de faire différents calculs avec python grâce aux opérateurs.
   - les calculs mathématiques sur les `int` et les `float` : `+`, `-`, `*` (pour la multiplication), `/` (division), `<` (strictement infèrieur), `>` (strictement supèrieur), `<=` (inférieur ou égal), `=>` (supèrieur ou égal),`==` (égal) 
   - l'opérateur pour les `int` uniquement : `%' (modulo qui permet de connaître le reste sur une division)
-  - les calculs mathématiques sur les `int` et les `float` : `+`, `-`, `*` (pour la multiplication), `/`, 
+  - on peut utiliser le `+` sur le string cela par assembler 2 chaînes de caractères par exemple `"pika"+"chu"` va retourner `"pikachu"`  
   
-
-
+* Les instructions `if` : Pour écrire une condition il faut utiliser le `if`. La condition permet d'exécuter du code uniquement dans certains cas. Et attention il faut bien faire attention aux espaces (tu peux utiliser 4 espaces ou la touche tab)  pour que python comprenne l'instruction. Ces espaces sont appelés *indentation* en informatique.
+```
+nombreBoulesCristal = 7
+if nombreBoulesCristal == 7:
+    print("Je suis Sheron le dragon, je vais exaucer ton voeux")
+print("Fin")
+```
+Dans ce code, on affiche le message 
+```
+Je suis Sheron le dragon, je vais exaucer ton voeux
+Fin
+``` 
+puisqu'on on a le bon nombre de boules de cristal c'est-à-dire 7. 
+Si `nombreBoulesCristal` était égal à 6 on aurait affiché 
+```
+Fin
+``` 
+On peut mettre plusieurs instrusctions dans le `if` mais il ne faut pas oublier les espaces avant chaque ligne.
+```
+jour = "jeudi"
+if jour == "jeudi":
+    print("matin : ecole")
+    print("midi : cantine")
+    print("apres-midi : ecole")
+    print("soir : capoeira")
+```
+Ce code affichera donc
+```
+matin : ecole
+midi : cantine
+apres-midi : ecole
+soir : capoeira
+```
 
 A ton tour
 -----------
-Avec ce ce que tu viens d'apprendre :
+Avec ce que tu viens d'apprendre :
+
 

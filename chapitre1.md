@@ -1,4 +1,4 @@
-Chapitre 1 : Ecrire et exécuter ton code à partir d'un fichier
+Chapitre 1 : Ecrire et exécuter des instructions à partir d'un fichier
 =======
 
 Pour écrire des instructions plus complexes, nous allons utiliser un fichier. 
@@ -94,5 +94,6 @@ Fin
 A ton tour
 -----------
 Avec ce que tu viens d'apprendre :
-
+* [ ] Crée un fichier qui te permettra d'afficher `Salut`
+* [ ] Crée une variable `pokemon` qui a pour valeur le nom de ton pokémon préféré
 

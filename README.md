@@ -3,5 +3,5 @@ Apprendre aux enfants à programmer en python
 
 [Chapitre 0 - Lancer Python](chapitre0.md).
 
-[Chapitre 1 - Créer une fonction et des instructions](chapitre1.md).
+[Chapitre 1 - Ecrire et exécuter tes instructions à partir d'un fichier](chapitre1.md).
 

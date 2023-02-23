@@ -91,9 +91,26 @@ Sangoku continue de chercher les boules de cristal
 Fin
 ```
 
+Les fonctions
+-----------
+Qu'est-ce qu'une fonction ? Tu en connais déjà une que tu utilises déjà : `print`. Elle est pratique car elle permet d'afficher du texte, on peut l'appeler autant de fois que l'on veut et elle fait toujours la même chose c'est-à-dire afficher un message. Quand tu fais `print("Salut")`, tu appelles la *fonction* `print` avec en *paramètre* la valeur `"Salut"`.
+Maintenant écrivons nous aussi une fonction :
+```
+def verifierLivresEmpruntes(n):
+    if n >= 12:
+      print("Vous ne pouvez plus emprunter de livres")
+    else:
+      print("Vous pouvez encore emprunter des livres")
+verifierLivresEmpruntes(2)
+verifierLivresEmpruntes(12)
+```
+
 A ton tour
 -----------
 Avec ce que tu viens d'apprendre :
 * [ ] Crée un fichier qui te permettra d'afficher `Salut`
 * [ ] Crée une variable `pokemon` qui a pour valeur le nom de ton pokémon préféré
+* [ ] Ecrit une fonction `verifierDvdEmpruntes(n)` qui vérifie si tu ne dépasses le nombre de DVD empruntés qui est de 4 maximum
+* [ ] A l'aide de `if` et `else` écrit une fonction `trouverClasse(age)` qui permet de connaître à partir de l'âge d'un enfant en quel classe (6 ans -> CP, ..., 10 -> CM2) il peut être.
+* [ ] Ecrit une fonction `multiplier(a,b)` qui multiplie `a` par `b`
 
